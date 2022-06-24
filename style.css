@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@400;500&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    margin: 0%;
+    font-family: Poppins;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.blue{
+
+    background-color: #2D25A0;
+    width: 100%;
+    
+    padding-top: 0%;
+    
+}
+.conmebl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 153px;
+    
+}
+.copa{
+    margin: 0%;
+    color: #FFFFFF;
+    margin-left: 150px;
+    font-size: 64px;
+    font-weight: 700px;
+
+    
+
+    
+}
+.button1{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-left: 150px;
+    height: 44px;
+    width: 168px;
+    border:0px ;
+
+}
+.arrow{
+    padding-left: 12px;
+}
+.img1{
+    width: 556px;
+    height: 438px;
+    
+}
+/* players */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.football-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+
+}
+.players{
+    
+}
+.shadow{
+    width: 300px;
+    height: 500px;
+    margin-top: 70px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player{
+    padding: 15px;
+    padding-bottom: 35px;
+    
+}
+
+.img-player{
+    width: 270px;
+    height: 256px;
+}
+.name{
+    font-size: 28px;
+    font-weight: 700;
+}
+.details{
+    font-weight: 400px;
+    font-size: 16px;
+    font-feature-settings: 'liga' off;
+    color: #6C6C6C;
+}
+/* part 3 */
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.hilights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 66px;
+
+}
+.hilight{
+    padding-left: 180px;
+
+}
+.All1{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 224px;
+    margin-bottom: 0px;
+    
+}
+.summery{
+    margin-top: 8px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.button11{
+    
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    height: 44px;
+    width: 168px;
+    border: 0px;
+}
+.img5 img{
+    width: 500px;
+    height: 427px;
+    margin-top: 165px;
+}
+/* last part */
+.last{
+    padding-top: 158px;
+}
+.ball img{
+    width: 483px;
+    height: 110px;
+}
+.icons{
+    column-gap: 14px;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+.l2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000000;
+    margin-top: 20px;
+
+}
+
+/* phone */
+    @media only screen and (max-width: 688px) {
+        .blue{
+            width: 100%;
+        }
+        .conmebl, .football-players , .hilights{
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+        .button1{
+            margin-bottom: 50px;
+            margin-top: 30px;
+
+        }
+        .hilight , .button11{
+            padding-left: 20pxpx;
+            
+        }
+        .img5{
+            padding-top: 29px;
+            
+            padding-left: 26px;
+           
+            
+            
+        }
+    }
